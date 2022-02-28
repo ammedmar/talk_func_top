@@ -1,0 +1,19 @@
+\documentclass{standalone}
+\usepackage{tikz}
+
+\begin{document}
+\begin{tikzpicture}
+\draw (0,0) circle (2cm) node {$x$};
+\draw (-1.2,1.2) node {$V$};
+\draw (0,0) circle (1cm) node {$x$};
+\draw (-.5,.5) node {$U$};
+
+
+\draw (-4,-3) -- (4,-3);
+\draw (0,-3) node[anchor=north] {$f(x)$};
+\draw[dashed] (.8,-3) -- (.8,3);
+\draw (.8,-3.1) node[anchor=north] {$s$};
+\draw[dashed] (1.8,-3) -- (1.8,3);
+\draw (1.8,-3.1) node[anchor=north] {$t$};
+\end{tikzpicture}
+\end{document}
